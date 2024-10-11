@@ -149,20 +149,6 @@ JWT_COOKIE_EXPIRES_IN=90
 - **JWT** is used for user authentication. Each user must provide a valid token to access protected routes.
 - Passwords are hashed using **bcrypt**.
 
-## Environment and Server Configuration
-NODE_ENV=development            # Set the environment to 'development' or 'production'
-PORT=3000                       # Port number for the server to run on
-
-## MongoDB Database Configuration
-DATABASE=mongodb+srv://<USERNAME>:<PASSWORD>@cluster0-pwikv.mongodb.net/Airbnb?retryWrites=true&w=majority
-DATABASE_LOCAL=mongodb://localhost:27017/Airbnb
-DATABASE_PASSWORD=your_mongodb_password   # MongoDB password for the user
-
-## JWT (JSON Web Token) Configuration
-JWT_SECRET=your_jwt_secret       # Secret key used to sign JWT tokens
-JWT_EXPIRES_IN=90d               # Time duration for JWT token validity (90 days)
-JWT_COOKIE_EXPIRES_IN=90         # Expiration for JWT token stored in cookies (90 days)
-
 
 ## License
 
